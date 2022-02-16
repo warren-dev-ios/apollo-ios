@@ -1,3 +1,4 @@
+import AnimalKingdomAPI
 import Foundation
 import XCTest
 import Nimble
@@ -975,6 +976,18 @@ final class AnimalKingdomIRCreationTests: XCTestCase {
     // then
     expect(selectionSet.parentType).to(equal(GraphQLObjectType.mock("Height")))
     expect(actual).to(shallowlyMatch(self.expected))
+  }
+
+  func test__InputObject() {
+    let input = PetAdoptionInput(ownerID: "1", petID: "2", favoriteToy: "Toy", isSpayedOrNeutered: nil)
+
+//    input.
+    let ownerID = input.ownerID
+
+//    let value = input.isSpayedOrNeutered
+
+//    expect(value).to(beNil())
+    expect(ownerID).to(equal("1"))
   }
 
 }
