@@ -56,7 +56,7 @@ open class Object: CacheEntity, Cacheable {
     }
   }
 
-  public final func set<T: Cacheable>(value: T?, forKey key: StaticString) throws {
+  final func set<T: Cacheable>(value: T?, forKey key: StaticString) throws {
     let fieldName = key.description
 
     guard let value = value else {
@@ -71,7 +71,7 @@ open class Object: CacheEntity, Cacheable {
         try set(value: value, forCovariantField: fieldName, convertingToType: covariantFieldType)
 
       } else {
-        //        data[fieldName] = value // TODO: write tests
+        data[fieldName] = value // TODO: write tests
       }
 
     //    case is ScalarType.Type:
