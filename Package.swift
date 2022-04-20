@@ -30,8 +30,8 @@ let package = Package(
       url: "https://github.com/daltoniam/Starscream",
       .upToNextMinor(from: "3.1.1")),
     .package(
-      url: "https://github.com/stencilproject/Stencil.git",
-      .upToNextMinor(from: "0.13.1")),
+      url: "git@github.com:warren-dev-ios/Stencil.git",
+      .branch("master")),
     ],
     targets: [
       .target(
