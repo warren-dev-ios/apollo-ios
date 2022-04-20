@@ -21,11 +21,11 @@
       },
       {
         "package": "SQLite.swift",
-        "repositoryURL": "https://github.com/stephencelis/SQLite.swift.git",
+        "repositoryURL": "git@github.com:warren-dev-ios/SQLite.swift.git",
         "state": {
-          "branch": null,
-          "revision": "0a9893ec030501a3956bee572d6b4fdd3ae158a1",
-          "version": "0.12.2"
+          "branch": "master",
+          "revision": "a4f8670c4bc69b786659a1c813555e39718b687c",
+          "version": null
         }
       },
       {
