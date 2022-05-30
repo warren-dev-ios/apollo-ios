@@ -24,13 +24,13 @@ let package = Package(
     ],
     dependencies: [
     .package(
-      url: "git@github.com:warren-dev-ios/SQLite.swift.git",
+      url: "https://github.com/warren-dev-ios/SQLite.swift.git",
       .branch("master")),
     .package(
       url: "https://github.com/daltoniam/Starscream",
       .upToNextMinor(from: "3.1.1")),
     .package(
-      url: "git@github.com:warren-dev-ios/Stencil.git",
+      url: "https://github.com/warren-dev-ios/Stencil.git",
       .branch("master")),
     ],
     targets: [

@@ -3,16 +3,16 @@
     "pins": [
       {
         "package": "PathKit",
-        "repositoryURL": "git@github.com:warren-dev-ios/PathKit.git",
+        "repositoryURL": "https://github.com/warren-dev-ios/PathKit.git",
         "state": {
           "branch": "master",
-          "revision": "a4fffd6456c36d16f5442cf67579efc34ea6deea",
+          "revision": "b1c7e0175b7ee250e4ccd0f1901b88b8f5c055df",
           "version": null
         }
       },
       {
         "package": "Spectre",
-        "repositoryURL": "git@github.com:warren-dev-ios/Spectre.git",
+        "repositoryURL": "https://github.com/warren-dev-ios/Spectre.git",
         "state": {
           "branch": "master",
           "revision": "c4c98b558db1d8dec87d966015f28ad77f10e3d1",
@@ -21,7 +21,7 @@
       },
       {
         "package": "SQLite.swift",
-        "repositoryURL": "git@github.com:warren-dev-ios/SQLite.swift.git",
+        "repositoryURL": "https://github.com/warren-dev-ios/SQLite.swift.git",
         "state": {
           "branch": "master",
           "revision": "a4f8670c4bc69b786659a1c813555e39718b687c",
@@ -39,10 +39,10 @@
       },
       {
         "package": "Stencil",
-        "repositoryURL": "git@github.com:warren-dev-ios/Stencil.git",
+        "repositoryURL": "https://github.com/warren-dev-ios/Stencil.git",
         "state": {
           "branch": "master",
-          "revision": "2dfb4060dcd3f15da7841f7324b2b23074e0c56f",
+          "revision": "ab1d3535c0edf0ed2fb7a565d0eca101f1c8807d",
           "version": null
         }
       },
